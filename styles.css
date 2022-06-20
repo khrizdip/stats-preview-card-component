@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", "Lexend+Deca";
+  line-height: 1;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 48px;
+  max-width: 1440px;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.design {
+  margin: 90px 180px;
+  background-color: hsl(244, 38%, 16%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pic {
+  background-image: linear-gradient(
+      rgba(170, 92, 219, 0.6),
+      rgba(170, 92, 219, 0.6)
+    ),
+    url(images/image-header-desktop.jpg);
+  background-size: cover;
+}
+
+.section-a {
+  padding: 50px 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading,
+.number {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 32px;
+  line-height: 1.2;
+}
+
+.text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.number {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 10px;
+}
+
+span {
+  color: rgba(170, 92, 219, 0.6);
+}
